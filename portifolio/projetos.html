@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Portifólio</title>
+</head>
+<body>
+    <header>
+        <h1>Meus projetos</h1>
+        <nav>
+            <button>Abrir/Fechar menu</button>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="experiencia.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+    </main>
+        <header>
+            <h1>Portifólio</h1>
+        </header>
+        <section> 
+            <h2>Conhecimento Técnico</h2>
+            <p>
+                <h4>Back-End e Front-End com as seguintes linguagens e tecnologias:</h4>
+                - PYTHON, CSS, HTML, JAVASCRIP, DJANGO, SQL, MySQL, GIT, BOOTSTRAP, VUE.JS, API's e FASTAPI. <br>
+                - Possuo um portfólio com alguns projetos realizados por mim em Python, Django e BOOTSTRAP disponíveis 
+                no meu GitHub que criei baseado nos conhecimentos que adquiri até o momento, e alguns deles estão no ar
+                com o HEROKU).
+            </p>
+        </section>
+
+        <section> <!--seção Projeto estacionamento-->
+            <h2>Projeto Estacionamento</h2>
+            <p>
+                Projeto feito com base no conhecimento que adquiri ate o momento
+            </p>
+            <p>
+                Um sistema de estacionamento feito em Django que tem a capacidade de gerenciar veículos, pessoas,
+                pagamentos diários e pagamentos mensais, gerando relatórios em PDF ou CSV.
+            </p>
+            <p>
+                O maior desafio encontrado durante o desenvolvimento desse projeto foi a questão evolucionária do banco de dados, 
+                tentando fazer com que o mesmo acompanhe as evoluções do sistema e tenha um histórico de alterações de banco de 
+                dados que possa ser versionado via source control (git). O Django oferece a ferramenta "django migrations" que pode 
+                não ser muito intuitiva quando se tem o contato pela primeira vez, mas assim que você entende o seu funcionamento,
+                tudo roda como esperado.
+            </p>
+            <a href="https://github.com/paulo9405/estacionamento2">GitHub com o código</a> <br>
+            <a href="http://estacionamento95.herokuapp.com/">Site do sistema</a>    
+        </section> <!--Fim seção Projeto estacionamento-->
+
+        <section><!--seção escalas-->
+            <h2>Projeto Sistema de Escala de Folgas e Trabalho</h2>
+            <p>
+                Sistema de cadastro e escalas de trabalho e folga de médicos com Python | Django | Bootstrap (com algumas validações).
+            </p>
+            <p>
+                A - Só poderá preencher a escala se não houver folga para o médico naquele dia da semana. <br>
+                B - Não poderá ser cadastrada folga se houver escala definida para o  médico naquele dia da semana. <br>
+                C - Não permitindo múltiplos cadastros (unique_together). <br>
+                D - Validação do formato das datas. <br>
+                E – Desativar médicos e postos de saúde (não vamos trabalhar com exclusão  física  do registro). <br>
+            </p>
+            <a href="https://github.com/paulo9405/escala_de_folgas_Django">GitHub com o código</a> <br>
+            <a href="https://escala94.herokuapp.com/sistema/">Site do Sistema</a>
+        </section> <!--Fim seção escalas-->
+
+        <section><!--seção RestApi-->
+            <h2>Projeto API com Django Rest Framework</h2>
+            <p>
+                Criei uma API REST para cadastro de ativos e Ações usando Python | Django | Django Rest Framework,
+                Com algumas validações bem interessantes.
+            </p>
+            <p>
+                1. Cadastrar ativos 
+                Os ativos devem conter no mínimo as informações abaixo: <br>
+                Nome - uma denominação para este ativo. <br>
+                Modalidade - renda fixa, renda variável ou cripto.
+            </p>
+            <p>
+                2. Fazer aplicações e resgates em um ativo: <br> 
+                Aplicação é quando o usuário aporta dinheiro em um ativo. <br>
+                Resgate é quando o usuário retira dinheiro de um ativo. <br>
+                Aplicações e resgates são transacionais e imutáveis. Uma vez realizada não há como alterar. <br>
+                As aplicações e resgates devem conter no mínimo as informações abaixo: <br>
+                Ativo - O ativo ao qual a aplicação/resgate se refere. <br>
+                Data de solicitação - a data em que a aplicação/resgate foi solicitada. <br>
+                Quantidade - número de ativos que foram aplicados/resgatados. <br>
+                Preço unitário - preço unitário do ativo na aplicação/resgate. <br>
+                Usuários podem fazer aplicações/resgate em ativos cadastrados por qualquer usuário. <br>
+                Exemplo: <br>
+                O usuário A cadastra um ativo chamado BITCOIN e faz uma aplicação de mil reais. <br>
+                O usuário B pode aplicar no ativo BITCOIN também, pois ele já foi cadastrado pelo usuário A. 
+            </p>
+            <p>
+                3. Visualizar o saldo da sua carteira de investimentos <br>
+                Você pode decidir onde e como mostrar a informação. <br>
+                O saldo da carteira é o somatório de saldos investidos em cada um dos ativos. <br>
+                Usuários não podem: <br>
+                Ver aplicações e resgates de outros usuários. <br>
+                Ver o saldo da carteira de outros usuários. <br>
+                Outros detalhes da API: <br>
+                Testes <br>
+                As funcionalidade principais contem testes escritos.
+            </p>
+            <p>
+                4. Extras:
+                Permitir os usuários listar ativos por tipo (renda fixa, renda váriavel, cripto). <br>
+                Salvar o endereço de IP do usuário que fez uma aplicação/resgate. <br>
+                Sistema de  adição de taxa de custódia, administração, tarifa de saque. 
+            </p>
+            <a href="">GitHub com o código</a>
+        </section><!--Fim da seção RestApi-->
+
+    <footer>
+        <div>
+            <div>
+                <h2>Social</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/paulo-gomes-5385ba17a/" target="_blank">Linkedin</a></li>
+                    <li><a href="https://github.com/paulo9405" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.facebook.com/pauloricardo.ricardo.1428/" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/paulo_bittencourt94/" target="_blank">Instagran</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCt7IH75t17mGyOXv63Eyn9Q" target="_blank">YouTube</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="experiencia.html">experiencia</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            2021 - Todos os direitos reservados - Paulo Gomes
+        </div>
+    </footer>
+    
+</body>
+</html>
