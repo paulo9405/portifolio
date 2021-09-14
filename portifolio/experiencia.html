@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Paulo Portifólio</title>
 </head>
 <body>
-    <header>
-        <h1>Experiências</h1>
-        <nav>
-            <button>Abrir/Fechar menu</button>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="experiencia.html">Experiência</a></li>
-                <li><a href="contato.html">Contato</a></li>
+    <header class="cabecalho">
+        <a href="index.html" class="logo">PauloDev94</a> <!--Talvez mudar aqui-->
+        <nav class="menu-principal">
+            <button class="menu-principal__btn">Abrir/Fechar menu</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item" href="index.html">Inicio</a></li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre</a></li>
+                <li><a class="menu-principal__item" href="projetos.html">Projetos</a></li>
+                <li><a class="menu-principal__item menu-principal__item--atual" href="experiencia.html">Experiência</a></li>
+                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -73,31 +75,33 @@
             </p>
             <a href="#">Site ou repositorio do acai</a>
         </section>
-            <div>
-                <h2>Social</h2>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/paulo-gomes-5385ba17a/" target="_blank">Linkedin</a></li>
-                    <li><a href="https://github.com/paulo9405" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.facebook.com/pauloricardo.ricardo.1428/" target="_blank">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/paulo_bittencourt94/" target="_blank">Instagran</a></li>
-                    <li><a href="https://www.youtube.com/channel/UCt7IH75t17mGyOXv63Eyn9Q" target="_blank">YouTube</a></li>
-                </ul>
+        <footer class="rodape">
+            <div class="rodape__linha-1">
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Social</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links__item" href="https://www.linkedin.com/in/paulo-gomes-5385ba17a/" target="_blank">Linkedin</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://github.com/paulo9405" target="_blank">GitHub</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://www.facebook.com/pauloricardo.ricardo.1428/" target="_blank">Facebook</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://www.instagram.com/paulo_bittencourt94/" target="_blank">Instagran</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://www.youtube.com/channel/UCt7IH75t17mGyOXv63Eyn9Q" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Links</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links__item" href="index.html">Inicio</a></li>
+                        <li><a class="rodape__lista-links__item" href="sobre.html">Sobre</a></li>
+                        <li><a class="rodape__lista-links__item" href="projetos.html">Projetos</a></li>
+                        <li><a class="rodape__lista-links__item" href="experiencia.html">Experiência</a></li>
+                        <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
             </div>
             <div>
-                <h2>Links</h2>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="experiencia.html">Experiência</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
+                2021 - Todos os direitos reservados - Paulo Gomes
             </div>
-        </div>
-        <div>
-            2021 - Todos os direitos reservados - Paulo Gomes
-        </div>
-    </footer>
+        </footer>
     
 </body>
 </html>
