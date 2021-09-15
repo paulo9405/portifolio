@@ -23,3 +23,24 @@
     margin: 0 auto; /*centralizando um elemento display block*/
     margin-top: 20px;
 }
+
+/*conteudo*/
+.pagina-conteudo{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/*paragrafos*/
+.pagina-conteudo p{
+    color: #3a3a3a;
+    line-height: 22px; /*esoaçamento entre as linhas*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*alinhando texto no centro criamdo uma classe de reaproveitamento*/
+
+.text-center{
+    text-align: center;
+}
