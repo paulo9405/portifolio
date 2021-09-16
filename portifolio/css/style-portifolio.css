@@ -18,3 +18,7 @@
     color: black;
     font-size: 18px;   
 }
+
+.img-regular{
+    max-width: 450px;
+}
