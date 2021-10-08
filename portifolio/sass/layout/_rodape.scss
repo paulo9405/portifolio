@@ -1,0 +1,52 @@
+/*Rodape*/
+.rodape{
+    color: white; /*colocando o texto do rodapé branco*/
+}
+
+.rodape .logo {
+    margin-bottom: 20px;
+}
+
+.rodape__linha-1{
+    background-color: #272525; /* fundo tom cinza claro */
+    background-image: url("../img/rodape-bg.jpg"); /*imagem de fundo do rodape*/
+    background-size: cover; /* para a imagem ocupar todo tamanho do background */
+    padding: 15px;
+
+}
+
+.rodape__linha-2{
+    background-color: black; /* fundo preto direitos reservados */
+    text-align: center; /*dexar o texto centralizado*/
+    padding: 15px;
+}
+
+.rodape__coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.rodape__titulo{
+    border-bottom: 1px solid white; /*colocando uma linha branca para dividir*/
+    padding: 0 10px 10px 10px; /*posicionando o texto*/
+    font-size: 18px; /*tamanho do texto (links, social)*/
+}
+
+
+.rodape__lista-links{
+    padding: 0; /*remover o padding para não ficar com espaçamento a esquerda*/
+    list-style: none; /*removendo os potinhos*/
+}
+
+.rodape__lista-links__item {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.rodape__lista-links__item::before{
+    content: '>';
+    margin-right: 8px;
+    color: $cor-principal;
+}

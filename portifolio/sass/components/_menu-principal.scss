@@ -1,0 +1,45 @@
+.menu-principal__btn{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px; /*apaga o texto*/
+    background-color: #fff;
+    background-image: url("../img/menuprincipal-btn-bg.png");
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer; /*quando o usuario coloca o mouse sobre ele mudar para ficar clicavel*/
+
+    /*colocando o botao abre e fecha no auto a direita*/
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/*abrir e ffechar o menu*/
+.menu-principal__btn--fechar{
+    background-position: -48px 7px;
+
+}
+
+.menu-principal__lista{
+    padding: 0; /* encostando o menu no lado esquerdo do navegador */
+    list-style: none; /*removendo os pontos dos li dentro da lista*/
+}
+
+.menu-principal__item{
+    text-decoration: none; /* removendo os sublinhados */
+    font-weight: bold; /*deixando o texto em negrito*/
+    color: #343434; /* colocando cor no texto */
+    margin-bottom: 10px; /*dando margem 'distancia de 10px de cada menu' lembrando q tem q colocar display block*/
+    display: block;
+    font-size: 18px; /*fonte de 18px*/
+}
+
+/*criando modificador para ficar na pagina atual (tipo 'active do bootstrap')*/
+.menu-principal__item--atual{
+    color: $cor-principal; /*qundo estiver na pagina a cor vai ficar vermelha*/
+
+}

@@ -1,0 +1,25 @@
+.pagina-cabecalho{
+    background-color: $cor-principal;  /*cor de fundo*/
+    background-image: url("../img/cabecalho-pagina-bg.jpg"); /*imagem de fundo*/
+    background-attachment: fixed; /*deixando o conteudo de fundo fixo*/
+    color: white; /*cor do titulo*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.pagina-cabecalho__titulo{
+    text-align: center; /*centralizar o texto*/
+    text-transform: uppercase; /*texto sempre maiusculo*/
+}
+
+/*traço abaixo do titulo*/
+.pagina-cabecalho__titulo::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto; /*centralizando um elemento display block*/
+    margin-top: 20px;
+}

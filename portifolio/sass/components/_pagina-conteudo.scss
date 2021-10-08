@@ -1,0 +1,14 @@
+/*conteudo*/
+.pagina-conteudo{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/*paragrafos*/
+.pagina-conteudo p{
+    color: $cor-leitura;
+    line-height: 22px; /*esoaçamento entre as linhas*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
